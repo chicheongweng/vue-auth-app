@@ -4,6 +4,7 @@
     <p>
       Welcome to our ESG (Environmental, Social, and Governance) platform. Here, we are committed to providing transparent and comprehensive ESG data.
     </p>
+    <img src="@/assets/esg.jpeg" alt="ESG" class="esg-image" />
     <h3>Our ESG Focus Areas</h3>
     <ul>
       <li>Environmental Sustainability</li>
@@ -52,21 +53,10 @@ h1 {
   color: #42b983;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 5px 0;
-}
-
-a {
-  color: #42b983;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.esg-image {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
 }
 </style>
