@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HelloWorld from '../components/HelloWorld.vue';
 import StatsView from '../views/StatsView.vue';
 import UserLogin from '../views/Login.vue';
+import UserLogout from '../views/Logout.vue';
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: UserLogin,
+  },
+  {
+    path: '/logout',
+    name: 'Logout',
+    component: UserLogout,
   },
 ];
 
